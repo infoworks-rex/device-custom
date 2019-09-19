@@ -7,7 +7,7 @@ export RK_UBOOT_DEFCONFIG=rk1808
 # Kernel defconfig
 export RK_KERNEL_DEFCONFIG=rk1808_ips_defconfig
 # Kernel dts
-export RK_KERNEL_DTS=rk1808-evb-v10
+export RK_KERNEL_DTS=rk1808-ips
 # boot image type
 export RK_BOOT_IMG=boot.img
 # kernel image path
