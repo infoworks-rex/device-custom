@@ -3,11 +3,11 @@
 # Target arch
 export RK_ARCH=arm64
 # Uboot defconfig
-export RK_UBOOT_DEFCONFIG=rk1808
+export RK_UBOOT_DEFCONFIG=infoworks_rk1808_aikit
 # Kernel defconfig
-export RK_KERNEL_DEFCONFIG=rk1808_videofusion_defconfig
+export RK_KERNEL_DEFCONFIG=infoworks_rk1808_aikit_defconfig
 # Kernel dts
-export RK_KERNEL_DTS=rk1808-videofusion
+export RK_KERNEL_DTS=infoworks-rk1808-aikit
 # boot image type
 export RK_BOOT_IMG=boot.img
 # kernel image path
@@ -15,7 +15,7 @@ export RK_KERNEL_IMG=kernel/arch/arm64/boot/Image
 # parameter for GPT table
 export RK_PARAMETER=parameter-buildroot.txt
 # Buildroot config
-export RK_CFG_BUILDROOT=rockchip_rk1808_videofusion
+export RK_CFG_BUILDROOT=infoworks_rk1808_aikit
 # Recovery config
 export RK_CFG_RECOVERY=rockchip_rk1808_recovery
 # ramboot config
